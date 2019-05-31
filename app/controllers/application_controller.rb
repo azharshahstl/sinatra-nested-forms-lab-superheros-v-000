@@ -17,6 +17,6 @@ class App < Sinatra::Base
         #SuperHero.new({name: member_params[:name], power: member_params[:power], biography: member_params[:biography]})
       #end
       #binding.pry
-      erb :'team'
+      erb :team
     end
 end
