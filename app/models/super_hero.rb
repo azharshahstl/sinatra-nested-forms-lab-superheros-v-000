@@ -1,6 +1,6 @@
 class SuperHero 
   
-  attr_accessor :name, :motto, :biography 
+  attr_accessor :name, :power, :biography 
   
   @@superheroes = []
   
