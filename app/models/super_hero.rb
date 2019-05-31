@@ -2,14 +2,14 @@ class SuperHero
   
   attr_accessor :name, :power, :biography 
   
-  @@superheroes = []
+  @@super_heroes = []
   
   def initialize(args={})
     @name = args[:name]
     @power = args[:power] 
     @biography = args[:biography] 
     
-    @@superheroes << self 
+    @@super_heroes << self 
   end
   
   def self.all 
