@@ -16,7 +16,6 @@ class App < Sinatra::Base
       @super_heroes = members.collect do |member_params|
         SuperHero.new({name: member_params[:name], power: member_params[:power], biography: member_params[:biography]})
       end
-binding.pry
       erb :'team'
     end
 end
