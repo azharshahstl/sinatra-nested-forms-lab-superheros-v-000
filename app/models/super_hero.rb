@@ -13,7 +13,7 @@ class SuperHero
   end
   
   def self.all 
-    @@superheroes
+    @@super_heroes
   end
     
   
