@@ -14,6 +14,4 @@ class Team
   def self.all 
     @@teams
   end
-  
-  
 end
